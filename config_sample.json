@@ -1,14 +1,14 @@
 {
-    "server": "1.1.1.1",
-    "server_port": 1234,
+    "server": "speed01.dc-node1.com",
+    "server_port": 10005,
     "local_port": 1080,
-    "password": "1234567890",
-    "timeout": 120,
-    "method": "none",
+    "password": "04215a63-3696-4cbd-b228-e08babd17612",
+    "timeout": 60,
+    "method": "aes-128-gcm",
     "protocol": "origin",
     "protocol_param": "",
     "obfs": "tls1.2_ticket_auth",
     "obfs_param": "",
-    "local_address": "0.0.0.0",
+    "local_address": "127.0.0.1",
     "fast_open": false
 }
